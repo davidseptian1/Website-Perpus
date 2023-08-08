@@ -16,7 +16,7 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>E-Library Kanesa | {{ $title }}</title>
+    <title>WPU Blog | {{ $title }}</title>
 </head>
 
 <body>
@@ -26,6 +26,8 @@
     <div class="container mt-4">
       @yield('container')
     </div>
+
+    @include('partials.footer')
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
