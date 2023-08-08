@@ -16,7 +16,7 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>WPU Blog | {{ $title }}</title>
+    <title>E-Library Kanesa | {{ $title }}</title>
 </head>
 
 <body>
